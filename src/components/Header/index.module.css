@@ -1,0 +1,186 @@
+.wrapper {
+    width: 100%;
+    background-color: #021431;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.wrapperDark {
+    width: 100%;
+    background-color: #414558;
+    padding: 10px;
+}
+
+.wrapper .wlogin {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.wrapperDark .wlogin {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.wrapperDark .wloginDark {
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.wrapper .wlogin .sign {
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+}
+
+.wrapperDark .wlogin .signDark {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapperDark .wlogin .signDark:hover {
+    text-decoration: underline;
+}
+
+.wrapper .wlogin .sign:hover {
+    text-decoration: underline;
+}
+
+.header {
+    width: 100%;
+    background-color: #f0f6ff;
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+.headerDark {
+    width: 100%;
+    background-color: #181920;
+    padding: 20px;
+
+}
+
+.hWrapper {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .a {
+    color: rgb(207, 213, 248);
+    padding: 5px 19px;
+    background-color: #057aff;
+    font-size: 2.075rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.logo .aDark {
+    color: rgb(207, 213, 248);
+    padding: 5px 19px;
+    background-color: #FF7AC6;
+    font-size: 2.075rem;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.logo .a:hover {
+    background-color: #006be4;
+}
+
+.logo .aDark:hover {
+    background-color: #be3281;
+}
+
+.hMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hMenu .menu {
+    padding: 11px 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+
+.hMenu .menu:hover {
+    background-color: #e1efff;
+}
+
+.hDark {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.moon {
+    font-size: 20px;
+    color: #3b506b;
+    cursor: pointer;
+}
+
+.basket {
+    font-size: 30px;
+    color: #3b506b;
+    cursor: pointer;
+}
+
+.basketDark {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hDark span {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.hDark span:hover {
+    background-color: #c2deff;
+}
+
+.hDark p {
+    position: absolute;
+    left: 35px;
+    bottom: 27px;
+    width: 22px;
+    height: 17px;
+    padding-left: 8px;
+    background-color: red;
+    border-radius: 45%;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    background-color: #006eff;
+    color: white;
+}

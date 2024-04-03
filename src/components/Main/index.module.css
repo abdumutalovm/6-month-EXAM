@@ -1,0 +1,120 @@
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.containerDark {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.container h1 {
+    width: 526px;
+    color: #394e6a;
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.containerDark h1 {
+    width: 526px;
+    color: #394e6a;
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.container div {
+    width: 425px;
+}
+
+.containerDark div {
+    width: 425px;
+}
+
+.container p {
+    line-height: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 526px;
+    color: #394e6a;
+}
+
+.containerDark p {
+    line-height: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 526px;
+    color: #394e6a;
+}
+
+.container button {
+    width: 137px;
+    height: 48px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #006eff;
+    color: #fff;
+    margin-top: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.containerDark button {
+    width: 137px;
+    height: 48px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #006eff;
+    color: #fff;
+    margin-top: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #2066c2;
+}
+
+.containerDark button:hover {
+    background-color: #2066c2;
+}
+
+.sliderWrapper {
+    width: 400px;
+    height: 465px;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    background-color: blue;
+    margin-top: 50px;
+    overflow: auto;
+    background-color: #2f4460;
+}
+
+.sliderWrapper img {
+    width: 320px;
+    height: 416px;
+    object-fit: cover;
+    border-radius: 10px;
+}

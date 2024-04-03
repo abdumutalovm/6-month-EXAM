@@ -1,0 +1,39 @@
+h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -.025em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #203f67;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.span {
+    padding: 16px 24px;
+    background-color: #006eff;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 1.125rem;
+    width: 672px;
+    margin-top: 30px;
+    line-height: 2rem;
+    color: #203f67;
+}
+
+.segment {
+    display: none;
+}
