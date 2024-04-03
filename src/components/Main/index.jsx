@@ -15,7 +15,6 @@ function Main() {
   const {t,i18n} = useTranslation();
   const [lang,setLang] = useState('uz');
   const navigate = useNavigate()
-  console.log(theme);
 
 
   useEffect(() => {
@@ -35,7 +34,7 @@ if(localStorage.getItem('lang')){
 
   return (
     <>
-    <div className={theme === 'light' ? styles.container : styles.containerDark}>
+    <div className={styles.container}>
         <div>
         <h1>{t('we are changing the way people shop')}</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore repellat explicabo enim soluta temporibus asperiores aut obcaecati perferendis porro nobis.</p>
